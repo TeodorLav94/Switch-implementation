@@ -1,0 +1,17 @@
+1 2 3
+
+Tema1 RL - Switch VLAN și STP
+
+Descriere Generală
+Acest proiect implementează un switch cu funcționalități de tabelă de comutare, VLAN-uri și Spanning Tree Protocol (STP), conform specificațiilor
+din enunțul temei.
+
+Funcționalități Implementate
+1.Tabela de Comutare: Folosește un dicționar pentru a reține MAC-ul sursă și interfața, asigurând transmiterea eficientă a datelor către 
+dispozitivele conectate.
+
+2.VLAN-uri: Suportă VLAN-uri de tip trunk și acces, tratând frame-urile diferit în funcție de tipul legăturii. VLAN-ul sursă este identificat și 
+etichetat corespunzător pentru fiecare frame.
+
+3.STP (Spanning Tree Protocol): Implementează algoritmul STP pentru a preveni buclele în rețea. Mesajele BPDU sunt transmise periodic pe interfețele 
+trunk, iar algoritmul determină dinamica rețelei în funcție de root bridge și costul drumurilor.
